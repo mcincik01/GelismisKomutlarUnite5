@@ -53,7 +53,7 @@
         android:autofillHints="" />
 
     <Button
-        android:id="@+id/btnSuccess"
+        android:id="@+id/btnPlus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="btnSuccess"

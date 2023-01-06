@@ -36,6 +36,7 @@
         <activity android:name=".Uyg12Activity" android:label="@string/uyg12_isim"></activity>
         <activity android:name=".Uyg13Activity" android:label="@string/uyg13_isim"></activity>
         <activity android:name=".SS165Activity" android:label="@string/ss165"></activity>
+        <activity android:name=".SS168Activity" android:label="@string/ss168"></activity>
     </application>
 
 </manifest>

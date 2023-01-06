@@ -27,11 +27,11 @@ public class Uyg2Activity extends AppCompatActivity {
     }
 
     public void btnSuccess(View view) {
-        int result = calculate(Integer.parseInt(textNumber1.getText().toString()), Integer.parseInt(textNumber2.getText().toString()));
+        int result = calculate();
         Toast.makeText(this, "Toplam: " + result, Toast.LENGTH_SHORT).show();
     }
 
-    public int calculate(int number1, int number2) {
-        return number1 + number2;
+    public int calculate() {
+        return Integer.parseInt(textNumber1.getText().toString()) + Integer.parseInt(textNumber2.getText().toString());
     }
 }

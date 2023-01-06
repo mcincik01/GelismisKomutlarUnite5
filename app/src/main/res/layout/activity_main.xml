@@ -135,6 +135,13 @@
                 android:layout_height="wrap_content"
                 android:onClick="btnSS165"
                 android:text="@string/ss165" />
+
+            <Button
+                android:id="@+id/btnSS168"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnSS168"
+                android:text="@string/ss168" />
         </LinearLayout>
     </LinearLayout>
 
