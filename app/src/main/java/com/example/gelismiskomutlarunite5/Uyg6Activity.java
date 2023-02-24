@@ -39,7 +39,8 @@ public class Uyg6Activity extends AppCompatActivity {
             kisaKenar = Integer.parseInt(editTextKisaKenar.getText().toString());
             uzunKenar = Integer.parseInt(editTextUzunKenar.getText().toString());
             Dortgen dikdortgen = new Dortgen(kisaKenar,uzunKenar);
-            textViewAlan.setText(dikdortgen.toString());
+            alan = dikdortgen.alaniBul();
+            textViewAlan.setText(alan.toString());
         }
     });
 

@@ -12,6 +12,7 @@ public class Dortgen {
 
     public Dortgen(Integer kisaKenar) {
         this.kisaKenar = kisaKenar;
+        this.uzunKenar = kisaKenar;
     }
 
     public Dortgen(Integer kisaKenar, Integer uzunKenar) {
