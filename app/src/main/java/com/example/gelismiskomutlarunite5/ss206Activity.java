@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Uyg10Activity extends AppCompatActivity {
+public class ss206Activity extends AppCompatActivity {
     public Asker asker;
     public Tankcı tankci;
     String mesaj = "";
@@ -45,7 +45,7 @@ public class Uyg10Activity extends AppCompatActivity {
     }
 
     public void btnBack(View view) {
-        Intent uyg = new Intent(Uyg10Activity.this, MainActivity.class);
+        Intent uyg = new Intent(ss206Activity.this, MainActivity.class);
         startActivity(uyg);
         mesaj = tankci.atesEt();
         textViewMesaj.setText(mesaj);
